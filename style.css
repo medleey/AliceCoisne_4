@@ -4,11 +4,10 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.navbar > .keywords {
-  color: white;
-  font-size: 1px;
+  font-size: 16px;
+  /*ajout font-size global pour le texte*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*ajout du type de font*/
 }
 
 .navbar-brand {
@@ -19,7 +18,8 @@ a,
 button {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-  outline: none !important;
+  outline: none;
+  /*retrait !important*/
 }
 
 a:hover {
@@ -346,7 +346,8 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-  background: transparent !important;
+  background: transparent;
+  /*retrait !important*/
 }
 
 .navbar-toggle .icon-bar {
@@ -407,7 +408,8 @@ a:hover {
 }
 
 .nav > li > .dropdown a {
-  background: none !important;
+  background: none;
+  /*retrait !important*/
   display: block;
   padding: 14px 15px;
 }
@@ -434,7 +436,8 @@ nav .caret {
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
-  margin: 6px -5px 0 0 !important;
+  margin: 6px -5px 0 0;
+  /*retrait !important*/
   float: right;
 }
 
@@ -464,7 +467,8 @@ nav .caret {
 }
 
 button {
-  outline: none !important;
+  outline: none;
+  /*retrait !important*/
 }
 
 .btn-rd {
@@ -480,11 +484,13 @@ button {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 30px;
+  /*retrait !important*/
 }
 
 .icon-lg {
-  font-size: 60px !important;
+  font-size: 60px;
+  /*retrait !important*/
 }
 
 .sm-shadow {
@@ -532,7 +538,6 @@ button {
 }
 
 .showScrollTop {
-  font-size: 14px;
   opacity: 1;
 }
 
@@ -662,7 +667,8 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
+  /*retrait !important*/
 }
 
 .container {
@@ -687,26 +693,23 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
-  font-size: 11px;
-}
-
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
 }
 
 .h1 {
-  font-size: 20px;
+  font-size: 25px;
+  /*changement font-size*/
   font-family: "Open Sans";
 }
 
 .cta-hero {
   margin-top: 22px;
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  /*retrait !important*/
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 16px;
   font-weight: 700;
 }
 
@@ -716,15 +719,15 @@ p {
 }
 
 h2 {
-  font-size: 22px;
+  /*retrait font-size*/
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
+  color: #333333;
+  /*retrait !important*/
 }
 
 .med-width-whitespace {
@@ -735,11 +738,13 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #333333;
+  /*retrait !important*/
 }
 
 h4 {
-  color: #333333 !important;
+  color: #333333;
+  /*retrait !important*/
 }
 
 .icons {
@@ -748,7 +753,8 @@ h4 {
 }
 
 .white {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  /*retrait !important*/
 }
 
 .portfolio-thumb {
@@ -772,7 +778,8 @@ h4 {
 
 .bold-link {
   font-weight: 900;
-  text-decoration: underline !important;
+  text-decoration: underline;
+  /*retrait !important*/
 }
 
 .bgc-white {
@@ -788,38 +795,48 @@ h4 {
 }
 
 .tc-white {
-  color: #F3976C !important;
+  color: #F3976C;
+  /*retrait !important*/
 }
 
 .btn-atomic-tangerine {
   background: #F3976C;
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  /*retrait !important*/
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #FFFFFF !important;
+  background: #c27956;
+  /*retrait !important*/
+  color: #FFFFFF;
+  /*retrait !important*/
 }
 
 .ltc-white {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  /*retrait !important*/
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #cccccc;
+  /*retrait !important*/
 }
 
 .ltc-atomic-tangerine {
-  color: #F3976C !important;
+  color: #F3976C;
+  /*retrait !important*/
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #c27956;
+  /*retrait !important*/
 }
 
 .icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+  color: #364577;
+  /*retrait !important*/
+  border-color: #364577;
+  /*retrait !important*/
 }
 
 .bg-dots-bg {
@@ -915,8 +932,10 @@ h4 {
   h6,
   p,
   #disqus_thread {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 10px;
+    /*retrait !important*/
+    padding-right: 10px;
+    /*retrait !important*/
   }
   .b-parallax {
     background-attachment: scroll;
@@ -924,7 +943,8 @@ h4 {
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    float: none !important;
+    float: none;
+    /*retrait !important*/
   }
   .navbar.row {
     margin-left: 0;
@@ -949,7 +969,8 @@ h4 {
   }
   .dropdown .dropdown a .caret {
     float: none;
-    margin: 5px 0 0 10px !important;
+    margin: 5px 0 0 10px;
+    /*retrait !important*/
     border: 4px solid black;
     border-bottom-color: transparent;
     border-right-color: transparent;
