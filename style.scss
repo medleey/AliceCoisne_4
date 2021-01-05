@@ -737,11 +737,15 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto; /*ajout pour centrer*/
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    h4 {
+        font-weight: bold; /*ajout bold pour le h4*/
+    }
 }
 
 .avatar {
