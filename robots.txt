@@ -1,5 +1,5 @@
 User-Agent: *
-Sitemap: https://github.com/medleey/AliceCoisne_4/
+Sitemap: https://github.com/medleey/AliceCoisne_4
 
 #User-Agent: Googlebot
 #Disallow: /img
