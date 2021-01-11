@@ -122,22 +122,7 @@ a:hover {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
-}
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -667,8 +652,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757;
-  /*retrait !important*/
+  color: #242424;
 }
 
 .container {
@@ -752,7 +736,7 @@ h4 {
 }
 
 .white {
-  color: #FFFFFF;
+  color: black;
   /*retrait !important*/
 }
 
@@ -801,14 +785,13 @@ h4 {
 }
 
 .tc-white {
-  color: #FFFFFF;
+  color: black ;
   font-weight: bold;
   /*retrait !important*/
 }
 
 .btn-atomic-tangerine {
   background: #F3976C;
-  color: #FFFFFF;
   /*retrait !important*/
 }
 
