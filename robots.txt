@@ -1,8 +1,8 @@
 User-Agent: *
-Sitemap: https://github.com/medleey/AliceCoisne_4
+Sitemap: https://github.com/medleey/AliceCoisne_4/sitemap.xml
 
-#User-Agent: Googlebot
-#Disallow: /img
+# User-Agent: Googlebot
+# Disallow: /img
 
-#User-Agent: Googlebot-Image
-#Allow: /img
+# User-Agent: Googlebot-Image
+# Allow: /img
