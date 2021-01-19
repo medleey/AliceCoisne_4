@@ -438,7 +438,7 @@ nav .caret {
 }
 
 .btn {
-  margin: 0 5px 5px 0;
+  margin: 0 5px 0px 0;
 }
 
 .btn.pull-right {
@@ -714,10 +714,12 @@ h4 {
 .cta-hero {
   margin-top: 22px;
   color: black;
+  margin-bottom: 25px;
   /*retrait !important*/
   text-transform: uppercase;
-  padding: 12px 28px 12px 28px;
+  /*padding: 12px 28px 12px 28px;*/
   font-weight: 700;
+  font-size: 16px;
 }
 
 .social {
@@ -765,7 +767,6 @@ h4 {
 
 .black-background {
   background-color: rgba(165, 147, 99, 0.7);
-  /*padding: 40px 40px 40px 40px; retrait padding*/
 }
 
 .bold-link {
